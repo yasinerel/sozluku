@@ -1,5 +1,5 @@
 body{
-  background-color: #FDEFEF;
+  background-color: #815B5B;
   margin: 8px;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@ body{
 .form-container {
   width: 320px;
   border-radius: 0.75rem;
-  background-color: #957DAD;
+  background-color: #DFD3C3;
   padding: 2rem;
   color: rgba(243, 244, 246, 1);
   
@@ -21,7 +21,7 @@ body{
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
-  color: rgb(225 193 183);
+  color: rgb(53 90 54);
 }
 
 .form {
@@ -36,7 +36,7 @@ body{
 
 .input-group label {
   display: block;
-  color: rgb(241 188 208);
+  color: rgb(7 14 24);
   margin-bottom: 4px;
 }
 
