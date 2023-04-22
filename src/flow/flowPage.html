@@ -19,31 +19,38 @@
 
     <div class="container">
       <div class="left-block">
-        <h2>Topics</h2>
-        <ul>
-          <li><a href="#">Topic 1</a></li>
-          <li><a href="#">Topic 2</a></li>
-          <li><a href="#">Topic 3</a></li>
-          <li><a href="#">Topic 4</a></li>
-          <li><a href="#">Topic 5</a></li>
+        <h2>topics</h2>
+        <button id="add-topic-btn">new topic</button>
+        <ul id="topic-list">
+          <!-- Existing topics will be added here -->
         </ul>
+        
+        <div id="add-topic-form" style="display: none;">
+          <h3>add new topic</h3>
+          <form>
+            <label for="title">topic title:</label>
+            <input type="text" id="title" name="title"><br>
+            <label for="content">topic content:</label>
+            <textarea id="content" name="content"></textarea><br>
+            <input type="submit" value="Add">
+          </form>
+        </div>
       </div>
       <div class="middle-block">
-        <h2>Selected Topic</h2>
+        <h2>selected topic</h2>
         <div class="topic-content">
           <!-- Content of the selected topic goes here -->
         </div>
       </div>
       <div class="right-block">
-        <h2>Trends</h2>
+        <h2>genel seyler</h2>
         <ul>
-          <li><a href="#">Trend 1</a></li>
-          <li><a href="#">Trend 2</a></li>
-          <li><a href="#">Trend 3</a></li>
-          <li><a href="#">Event 1</a></li>
-          <li><a href="#">Event 2</a></li>
+         <p>
+          buraya belki bi şi ekleriz
+         </p>
         </ul>
       </div>
     </div>
+    <script src="flowPage.js"></script>
   </body>
 </html>
